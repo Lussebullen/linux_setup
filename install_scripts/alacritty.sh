@@ -10,14 +10,14 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup override set stable
 rustup update stable
 
-# Debian/Ubuntu dependencies
-sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+# Arch dependencies
+sudo pacman -S cmake freetype2 fontconfig pkg-config make libxcb libxkbcommon python 
 
 cargo build --release
 
 sudo chmod +x target/release/alacritty
 
-sudo cp target/release/alacritty /usr/bin/alacritty
+sudo cp target/release/alacritty /usr/local/bin/alacritty
 
 cd ..
 rm -rf alacritty

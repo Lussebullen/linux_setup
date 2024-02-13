@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt-get install tmux -y
+sudo pacman -Syu tmux
