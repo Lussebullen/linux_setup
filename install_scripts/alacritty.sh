@@ -11,11 +11,11 @@ rustup override set stable
 rustup update stable
 
 # Debian/Ubuntu dependencies
-apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
 
 cargo build --release
 
-chmod +x target/release/alacritty
+sudo chmod +x target/release/alacritty
 
 sudo cp target/release/alacritty /usr/bin/alacritty
 
