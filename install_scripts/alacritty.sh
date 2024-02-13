@@ -11,7 +11,7 @@ rustup override set stable
 rustup update stable
 
 # Arch dependencies
-sudo pacman -S cmake freetype2 fontconfig pkg-config make libxcb libxkbcommon python 
+sudo pacman -S cmake freetype2 fontconfig pkg-config make libxcb libxkbcommon python --noconfirm 
 
 cargo build --release
 

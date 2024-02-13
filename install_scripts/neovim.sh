@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -Syu neovim -y
+sudo pacman -Syu neovim --noconfirm

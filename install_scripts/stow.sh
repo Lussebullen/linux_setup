@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -Syu stow
+sudo pacman -Syu stow --noconfirm

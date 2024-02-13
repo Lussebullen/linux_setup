@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pacman -Syu tmux
+sudo pacman -Syu tmux --noconfirm
